@@ -19,9 +19,7 @@ banner_img: /img/article/2023-01-19/index_img.jpg
 
 > 测试主板型号：MAG B660M MORTAR WIFI DDR4 (迫击炮)
 
-# 详细步骤
-
-## 1.下载BIOS镜像
+# 1.下载BIOS镜像
 
 打开微星的[下载站点](https://cn.msi.com/support/download)
 
@@ -37,13 +35,13 @@ banner_img: /img/article/2023-01-19/index_img.jpg
 
 ![](/img/article/2023-01-19/2.png)
 
-## 2.下载ChangeLogo程序
+# 2.下载ChangeLogo程序
 
 [点击下载](https://pan.baidu.com/s/16FtyhzEaRfBggW-O0Kvy9A?pwd=cdft)
 
 ![](/img/article/2023-01-19/3.png)
 
-## 3.修改BIOS镜像文件
+# 3.修改BIOS镜像文件
 
 如果是64位系统，就打开 ChangeLogo64.exe
 
@@ -73,7 +71,7 @@ banner_img: /img/article/2023-01-19/index_img.jpg
 
 ![](/img/article/2023-01-19/10.png)
 
-## 4.刷入BIOS镜像
+# 4.刷入BIOS镜像
 
 重启进入 BIOS
 
