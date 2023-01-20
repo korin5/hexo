@@ -6,6 +6,7 @@ categories:
 tags: 
 - BIOS
 - 微星
+- 教程
 index_img: /img/article/2023-01-19/index_img.jpg
 banner_img: /img/article/2023-01-19/index_img.jpg
 ---
