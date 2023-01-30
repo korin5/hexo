@@ -94,7 +94,7 @@ topMenu:
     submenu:
       - label: 添加
         icon: plus
-        url: https://github.com/korin5/hexo/issues/new
+        url: https://github.com/korin5/korin5.github.io/issues/new
 
 
 # Footer 页脚配置
