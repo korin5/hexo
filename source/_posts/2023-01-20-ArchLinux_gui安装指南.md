@@ -5,9 +5,7 @@ categories:
 - 教程
 tags: 
 - Linux
-- 操作系统
-- 教程
-index_img: /img/article/2023-01-20/index.png
+pic: /assets/covers/2023-01-20.webp
 ---
 
 [官方文档](https://wiki.archlinux.org/title/Installation_guide)
