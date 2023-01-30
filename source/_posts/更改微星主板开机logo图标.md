@@ -17,7 +17,7 @@ pic: '/assets/covers/2023-01-19.webp'
 
 刷入修改后的BIOS文件
 
-# 1.下载原版BIOS文件
+# 下载原版BIOS文件
 
 打开[微星支持中心](https://cn.msi.com/support/download)
 
@@ -33,7 +33,7 @@ pic: '/assets/covers/2023-01-19.webp'
 
 ![](/assets/posts/2023-01-19/2.png)
 
-# 2.修改BIOS文件
+# 修改BIOS文件
 
 下载[ChangeLogo](https://pan.baidu.com/s/16FtyhzEaRfBggW-O0Kvy9A?pwd=cdft)
 
@@ -51,7 +51,7 @@ pic: '/assets/covers/2023-01-19.webp'
 
 完成的时候，左下角会提示New logo is created，点击Save Image As保存新的BIOS文件
 
-# 3.刷入BIOS文件
+# 刷入BIOS文件
 
 你也可以参考官方的[操作说明](http://event.msi.com/mb/mb_bios_cn.pdf)
 
