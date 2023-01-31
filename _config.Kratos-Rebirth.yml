@@ -86,9 +86,6 @@ topMenu:
   - label: 时间线
     icon: calendar
     url: /archives/
-  - label: Korin
-    icon: github
-    url: https://github.com/korin5
   - label: 友情链接
     icon: link
     submenu:
@@ -98,7 +95,7 @@ topMenu:
 
 
 # Footer 页脚配置
-group_link: 
+group_link: https://jq.qq.com/?_wv=1027&k=d1pEE8kD
 contact: # 出于兼容性考虑，继续保留
   weibo: 
   mail: 
@@ -109,9 +106,11 @@ contact: # 出于兼容性考虑，继续保留
   fediverse:
     instance:
     username:
-  github:
+  github: 
   rss:
-footerLinks: [] # 可以自定义
+footerLinks: 
+  - icon: github
+    link: https://github.com/korin5 # 可以自定义
 timenotice: 本站已运行
 icp: 
 psr:

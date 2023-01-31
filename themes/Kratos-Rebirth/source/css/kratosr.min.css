@@ -2482,12 +2482,12 @@ body.scroll-down .kr-tool .tool {
 }
 
 body.scroll-down .kr-tool .box.gotop-box {
-    bottom: 20px;
-    /* padding-top: 40px */
+    bottom: 20px
 }
 
 #footer {
     background: #23282d;
+    padding-top: 40px;
 }
 
 #footer.ap-lrc {
