@@ -209,7 +209,7 @@ widgets:
 avatarUri: /images/favicon.webp
 mobile_toc: 
   hide: false
-  hide_id: false
+  hide_id: true
 
 # Fancybox 文章内图片单击放大
 fancybox: true
