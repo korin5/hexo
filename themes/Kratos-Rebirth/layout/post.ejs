@@ -20,7 +20,7 @@
                     <% if (wordsCount < 1500) { %>
                         <%= wordsCount %>
                     <% } else { %>
-                        约 <%= (wordsCount / 1000).toFixed(2) %>K
+                        <%= (wordsCount / 1000).toFixed(1) %>K
                     <% } %>
                     <%- __('words') %>
                 </li>
