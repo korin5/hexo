@@ -1,5 +1,5 @@
 ---
-title: 更改微星主板开机logo图标
+title: 更改主板开机logo图标
 date: 2023-01-19 22:56:43
 toc: true
 categories:
@@ -9,7 +9,7 @@ tags:
 pic: '/assets/covers/2023-01-19.webp'
 ---
 
-测试型号：MAG B660M MORTAR WIFI DDR4 (迫击炮)
+测试型号：微星 MAG B660M MORTAR WIFI DDR4 (迫击炮)
 
 # 原理
 
@@ -35,13 +35,15 @@ pic: '/assets/covers/2023-01-19.webp'
 
 # 修改BIOS文件
 
-下载[ChangeLogo](https://pan.baidu.com/s/16FtyhzEaRfBggW-O0Kvy9A?pwd=cdft)
+下载[ChangeLogo](https://pan.baidu.com/s/13raYA4GFvZyJGPRyZWHBtw?pwd=z0wb)
 
 ![界面是这样的](/assets/posts/2023-01-19/1675078328896.png)  
 
-点击Load Image，加载BIOS文件
+点击Load Image，加载BIOS文件（需要选择文件类型为All Files，不然找不到）
 
-点击save logo，保存原版的logo（自定义logo的大小就参考这个原版logo的图片大小）
+点击save logo，可以保存原版logo
+
+为得到完美的布局，自定义图片的最大尺寸控制在800像素x600像素
 
 点击Browse，加载自定义的图片
 
@@ -53,9 +55,9 @@ pic: '/assets/covers/2023-01-19.webp'
 
 # 刷入BIOS文件
 
-你也可以参考官方的[操作说明](http://event.msi.com/mb/mb_bios_cn.pdf)
+也可参考[官方操作说明](http://event.msi.com/mb/mb_bios_cn.pdf)
 
-把BIOS文件放到U盘的根目录，部分高端主板支持无U盘安装，我就是直接放到C盘的
+把BIOS文件放到U盘的根目录，部分高端主板支持无U盘安装（但为了保险，还请使用U盘，详见文末）
 
 {% alertbox warning "注意：PE系统U盘不可以" %}
 
@@ -69,6 +71,25 @@ pic: '/assets/covers/2023-01-19.webp'
 
 可以用鼠标（或方向键）找到自己改过的bios文件，点击（或Enter）
 
-弹出的窗口选择yes，然后电脑会进行数次重启
+弹出的窗口选择yes，就开始刷入了
 
-完成之后，将直接进入windows系统
+{% alertbox danger "这个时候千万不要断电" %}
+
+刷入后，电脑会自动进行数次重启
+
+最后，将直接进入windows系统
+
+# 如果失败
+
+不用惊慌，不会爆炸，都是小问题
+
+如果只是图片大小不合适，那自定义图片参考原图尺寸再进行一遍即可
+
+如果中途断电开不了机，其实也不是大问题
+
+授人以渔：搜索关键词`BIOS烧录`进行学习
+
+虽然我没作死过，但是网友比较厉害，以身试法
+
+>“我在官方下载了一个最新的和我对应的主板BIOS，拷贝进U盘根目录，改了MSI.ROM。插进免CPU刷BIOS的插口，按了那个小圆键，小灯狂闪，我默默等了5分钟，自动重启，然后我就又能进入系统了。”
+>来自：https://bbs.a9vg.com/thread-8755825-1-1.html
