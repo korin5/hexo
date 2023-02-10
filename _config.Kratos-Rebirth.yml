@@ -225,7 +225,7 @@ search:
 jsconfig:
   main:
     cover:
-      randomAmount: 39 # 表示从1~20
+      randomAmount: 36 # 表示从1~20
       baseUrl: /images/thumb/ # 使用默认值（不单独配置），将跟随 vendors 中的相关设定选择是否使用 cdn
       filenameTemplate: "trumb ({no}).webp" 
     createTime: "2023/01/30 15:40:00"
