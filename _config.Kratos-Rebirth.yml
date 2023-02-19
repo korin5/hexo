@@ -46,8 +46,8 @@ vendors:
 # 自定义样式
 customStyles:
   images: # 图片相关设置
-    # banner: /images/banner.jpg # 站点横幅
-    # background: /images/bg.webp # 站点背景
+    banner: /images/new_banner.webp # 站点横幅
+    background: /images/new_bg.webp # 站点背景
 
 # Index 首页配置
 index:
@@ -197,13 +197,13 @@ aplayer:
 # 请注意splitter是分隔符，用于分割活动区域和固定区域
 # 例如默认配置下文章页向下滚动时，About区块会顺势上浮，toc区块会固定在最顶，您可以手动调整各小挂件的位置
 # 删除splitter表示禁用该功能（即所有小挂件均固定显示）
-sidebar: right
+sidebar: left
 widgets:
 - about
 - splitter
 - toc
-- category
-- tagcloud
+#- category
+#- tagcloud
 - posts
 avatarUri: /images/favicon.webp
 mobile_toc: 
@@ -268,3 +268,7 @@ friends:
   #   avatar: "../images/avatar.webp"
   #   link: "https://candinya.com"
   verify: true # 验证每个友链的可访问性，炸了会有提示
+
+# Misc 杂项
+misc:
+  showWordCountEstimateWavy: false # 在文章字数处显示表示大约字数的波浪号

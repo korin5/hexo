@@ -20,7 +20,7 @@
                     <% if (wordsCount < 1500) { %>
                         <%= wordsCount %>
                     <% } else { %>
-                        <%= (wordsCount / 1000).toFixed(1) %>K
+                        <% if (theme.misc.showWordCountEstimateWavy) { %>~<% } %><%= (wordsCount / 1000).toFixed(2) %>K
                     <% } %>
                     <%- __('words') %>
                 </li>
@@ -42,6 +42,11 @@
                             <%- __('comments_count', '<span data-path="' + url_for(page.path) + '" class="waline-comment-count"> </span>') %>
                         </li>
                     <% } %>
+                <% } else if (commentProvider === 'twikoo') { %>
+                    <li>
+                        <i class="fa fa-eye"></i>
+                        <%- __('read_count', '<span id="twikoo_visitors"> </span>') %>
+                    </li>
                 <% } %>
             </ul>
         </header>
