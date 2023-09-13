@@ -8,7 +8,7 @@ tags:
 - 刷机
 categories:
 - 资源
-# pic: '/assets/blogcovers/MIUI刷机资源.webp'
+pic: '/assets/blogcovers/MIUI刷机资源.webp'
 ---
 
 # MIUI官方ROM仓库

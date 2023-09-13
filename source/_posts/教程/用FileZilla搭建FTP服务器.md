@@ -5,7 +5,7 @@ categories:
   - 教程
 tags:
   - windows
-# pic: /assets/blogcovers/用FileZilla搭建FTP服务器.webp
+pic: /assets/blogcovers/用FileZilla搭建FTP服务器.webp
 date: 2023-09-13 15:57:08
 ---
 

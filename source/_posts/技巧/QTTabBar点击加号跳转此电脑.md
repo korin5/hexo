@@ -7,6 +7,7 @@ tags:
   - windows
   - 应用程序
 date: 2023-09-12 21:11:38
+pic: /assets/blogcovers/QTTabBar点击加号跳转此电脑.webp
 ---
 
 ## 此电脑的路径是`::{20D04FE0-3AEA-1069-A2D8-08002B30309D}`

@@ -5,7 +5,7 @@ categories:
   - 技巧
 tags:
   - windows
-# pic: /assets/blogcovers/还原win11右键菜单.webp
+pic: /assets/blogcovers/还原win11右键菜单.webp
 date: 2023-09-12 21:27:38
 ---
 

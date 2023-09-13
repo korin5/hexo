@@ -6,7 +6,7 @@ categories:
 tags:
   - windows
   - 应用程序
-# pic: /assets/blogcovers/mpv：轻量强大的视频播放器.webp
+pic: /assets/blogcovers/mpv：轻量强大的视频播放器.webp
 date: 2023-09-12 21:29:44
 ---
 
