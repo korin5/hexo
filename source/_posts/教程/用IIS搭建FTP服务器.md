@@ -9,6 +9,8 @@ categories:
 pic: '/assets/blogcovers/用IIS搭建FTP服务器.webp'
 ---
 
+推荐使用FileZilla搭建FTP服务器，跳转到[用FileZilla搭建FTP服务器](/2023/用FileZilla搭建FTP服务器/index.html)
+
 # 目的
 
 通过FTP，让电脑和手机之间能够无线传输数据
