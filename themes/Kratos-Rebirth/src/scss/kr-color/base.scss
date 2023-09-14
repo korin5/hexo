@@ -166,7 +166,7 @@ ul.kratos-post-meta {
                 }
                 .category-list-count {
                     color: $text;
-                    background-color: $info_background;
+                    // background-color: $info_background;
                 }
             }
         }
@@ -195,7 +195,12 @@ ul.kratos-post-meta {
     border-color: $border !important;
 
     &:hover {
-        color: $link_hover !important;
+        // color: $link_hover !important;
+
+        // background-color: rgb(73 82 94 / 88%)!important;
+
+        background-color: #ccc!important;
+        color: rgba(37,45,56,.875)!important;
     }
 }
 

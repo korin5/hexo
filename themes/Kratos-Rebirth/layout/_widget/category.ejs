@@ -1,6 +1,25 @@
 <% if (site.categories.length){ %>
-  <aside id="krw-categories" class="widget widget-kratos-categories clearfix">
-    <h4 class="widget-title"><i class="fa fa-folder"></i><%- __('categories_list') %></h4>
-      <%- list_categories({show_count: true}) %>
-  </aside>
+<aside id="krw-categories" class="widget widget-kratos-categories clearfix">
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <h4 class="widget-title"><i class="fa fa-folder"></i><%- __('categories_list') %></h4>
+  <!-- <%- list_categories({show_count: true}) %> -->
+  <!-- kratosr.scss第2212行 -->
+  <ul class="category-list">
+    <% site.categories.forEach(function(categorie) { %>
+        <a class="category-list-link" href="/categories/<%- categorie.name %>/"  style="padding-left: 8px;">
+          <i class="fa fa-folder-o" aria-hidden="true"></i>
+          <span style="padding-left: 8px;"><%- categorie.name %> (<%- categorie.length %>)</span>
+        </a>
+    <% }); %>
+  </ul>
+</aside>
+<style>
+  a[class="category-list-link"] {
+    display: block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  
+</style>
 <% } %>

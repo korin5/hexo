@@ -2021,7 +2021,7 @@ ul.kratos-post-meta {
       transition: .4s;
   
       &:hover {
-        color: #618eba;
+        // color: #618eba;
       }
     }
   
@@ -2122,7 +2122,7 @@ ul.kratos-post-meta {
           text-transform: uppercase;
           line-height: 19px;
           background: rgba(251, 251, 251, .7);
-          border-radius: 5px
+          // border-radius: 5px
         }
       }
 
@@ -2194,7 +2194,7 @@ ul.kratos-post-meta {
       
       &-categories {
         li {
-          margin-left: 10px;
+          padding-left: 10px;
       
           &::before {
             content: '\f114';
@@ -2204,9 +2204,13 @@ ul.kratos-post-meta {
         .category-list-item .category-list-count {
           float: right;
           margin-right: 20px;
-          border-radius: 6px;
+          // border-radius: 6px;
           width: 2em;
           text-align: center
+        }
+
+        .category-list-link:hover {
+          background-color: rgb(80 84 91 / 87%);
         }
       }
     }

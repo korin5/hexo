@@ -61,18 +61,21 @@ topMenu:
   - label: 首页
     icon: home
     url: /
-  - label: 归档
-    icon: calendar
+  - label: 文库
+    icon: archive
     url: /archives/
-  - label: 标签
-    icon: tags
-    url: /tags/
-  - label: 分类
-    icon: folder
-    url: /categories/
+  # - label: 标签
+  #   icon: tags
+  #   url: /tags/
+  # - label: 分类
+  #   icon: folder
+  #   url: /categories/
   - label: 关于
     icon: info-circle
     url: /about/
+  - label: 搜索
+    icon: search
+    url: /search/
   
   # - label: 友情链接
   #   icon: link

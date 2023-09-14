@@ -178,12 +178,12 @@ aplayer:
 # Widgets 侧边栏小挂件
 sidebar: right
 widgets:
-- about
-- splitter
-- toc
-- category
-- tagcloud
-- posts
+# - about
+# - splitter
+# - toc
+# - category
+# - tagcloud
+# - posts
 avatarUri: /images/avatar.webp
 mobile_toc: 
   hide: false
