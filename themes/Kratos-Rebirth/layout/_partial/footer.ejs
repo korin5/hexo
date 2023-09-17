@@ -57,14 +57,14 @@
         <div class="kr-tool text-center">
             <div class="tool">
                 <% if (theme.search.enable) { %>
-                    <div class="box search-box">
+                    <div class="box search-box" style="display: none;">
                         <a href="<%- config.root %>search/">
                             <span class="fa fa-search"></span>
                         </a>
                     </div>
                 <% } %>
                 <% if (theme.enable_dark) { %>
-                    <div class="box theme-box" id="darkmode-switch">
+                    <div class="box theme-box" id="darkmode-switch" style="display: none;">
                         <span class="fa fa-adjust"></span>
                     </div>
                 <% } %>
