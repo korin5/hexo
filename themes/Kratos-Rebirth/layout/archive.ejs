@@ -204,6 +204,10 @@
     content: "# ";
     color: #e8a6a6;
   } */
+
+  .post-time {
+    color : #ccc;
+  }
 </style>
 
 
@@ -291,7 +295,7 @@
                   <% } %>
                 </h3>
                 <div class="post-meta">
-                  <time class="post-time" itemprop="datePublished" datetime="<%- date_xml(post.date) %>">
+                  <time class="post-time" itemprop="datePublished" datetime="<%- date_xml(post.date) %>" >
                     <%- date(post.date, 'MM-DD' ) %>
                   </time>
                 </div>
