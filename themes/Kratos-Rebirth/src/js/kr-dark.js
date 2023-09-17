@@ -46,7 +46,8 @@
     const getModeFromCSSMediaQuery = () => {
         return window.matchMedia('(prefers-color-scheme: dark)').matches
             ? 'dark'
-            : 'light'
+            // : 'light'
+            : 'dark'
     };
 
     /**
@@ -64,6 +65,7 @@
         let currentSetting = mode || getLS(darkModeStorageKey);
         const systemTheme = getModeFromCSSMediaQuery();
         // 在 html tag 上设置主题颜色，方便第三方插件读取使用
+        // document.documentElement.setAttribute('data-theme', currentSetting || systemTheme);
         document.documentElement.setAttribute('data-theme', currentSetting || systemTheme);
         // 检查是否无效或可以被忽略
         if (!validColorModeKeys[currentSetting] || currentSetting === systemTheme) {
@@ -76,11 +78,15 @@
                 darkmodeCss.removeAttribute('disabled');
                 break;
             case "light":
-                darkmodeCss.setAttribute('disabled', 'disabled');
+                darkmodeCss.setAttribute('media', 'all');
+                darkmodeCss.removeAttribute('disabled');
+                // darkmodeCss.setAttribute('disabled', 'disabled');
                 break;
             default:
-                darkmodeCss.setAttribute('media', '(prefers-color-scheme: dark)');
+                darkmodeCss.setAttribute('media', 'all');
                 darkmodeCss.removeAttribute('disabled');
+                // darkmodeCss.setAttribute('media', '(prefers-color-scheme: dark)');
+                // darkmodeCss.removeAttribute('disabled');
                 break;
         }
     };
