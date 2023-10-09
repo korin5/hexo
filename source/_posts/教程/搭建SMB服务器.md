@@ -9,7 +9,9 @@ categories:
 # pic: '/assets/blogcovers/搭建SMB服务器.webp'
 ---
 
+{% alertbox warning
 推荐使用FileZilla搭建FTP服务器，跳转到[用FileZilla搭建FTP服务器](/2023/用FileZilla搭建FTP服务器/index.html)
+%}
 
 # 配置服务
 在本地机上以Windows10举例 ：控制面板 --> 程序 --> 程序和功能 --> 启用或关闭Windows功能 --> SMB 1.0/cifs file sharing support

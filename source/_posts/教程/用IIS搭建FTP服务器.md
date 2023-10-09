@@ -9,7 +9,9 @@ categories:
 pic: '/assets/blogcovers/用IIS搭建FTP服务器.webp'
 ---
 
+{% alertbox warning
 推荐使用FileZilla搭建FTP服务器，跳转到[用FileZilla搭建FTP服务器](/2023/用FileZilla搭建FTP服务器/index.html)
+%}
 
 # 目的
 
